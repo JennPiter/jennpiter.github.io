@@ -12,7 +12,7 @@ body {
 
 .block {
 	height: 100vh;
-	background-color: purple;
+	background-color: #FBF8EA;
 	margin: 0px;
 	min-height: 600px;
 	position: relative;
@@ -23,11 +23,15 @@ body {
 	font-size: 54px;
 	text-align: center;
 	padding-top: 20px;
+	color: #0088C4;
+	font-weight: 900;
+	text-shadow: 2px 2px #999;
 }
 
-.block:nth-child(2){
-	background-color: yellow;
+.block:nth-child(even){
+	background-color: #EBE8DA;
 }
+
 
 .navButton {
 	height: 50px;
@@ -38,4 +42,17 @@ body {
 	margin-right: auto;
 	left: 0;
 	right: 0;
+	box-shadow: 1px 1px #999;
+}
+
+.navButton:hover {
+	height: 50px;
+	min-width: 100px;
+	position: absolute;
+	bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	box-shadow: 4px 4px #999;
 }
