@@ -37,7 +37,6 @@ body {
 	text-align: right;
 	right: 60px;
 	bottom: 60px;
-	
 	color: #415d8a;
 }
 
@@ -51,10 +50,6 @@ body {
 	text-shadow: 2px 2px #ccc;
 }
 
-.block:nth-child(even){
-	background-color: #eee;
-}
-
 #block1 {
 	background-image: url("titlepage.jpeg");
 	background-repeat: no-repeat;
@@ -63,19 +58,22 @@ body {
 
 .navButton {
 	width: 100px;
+	height: 100px;
 	position: absolute;
-	bottom: 10px;
+	bottom: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 3px;
-	padding-right: 0px;
+	padding-right: 6px;
+	padding-top: 15px;
 	left: 0;
 	right: 0;
 	border: 0px;
-	border-radius: 4px;
+	border-radius: 50px;
 	color: white;
 	font-size: 30px;
+	background-color: #eee;
 }
 
 .navButton:hover {
+	background-color: #ccc;
 }
