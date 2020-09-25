@@ -12,47 +12,70 @@ body {
 
 .block {
 	height: 100vh;
-	background-color: #FBF8EA;
+	background-color: #white;
 	margin: 0px;
 	min-height: 600px;
 	position: relative;
 }
 
+.landingTitle {
+	position: absolute;
+	font-family: 'Comfortaa', cursive;
+	font-size: 60px;
+	text-align: left;
+	left: 60px;
+	top: 60px;
+	color: #415d8a;
+	font-weight: 1000;
+	text-shadow: 2px 2px #ccc;
+}
+
+.landingSubtitle {
+	position: absolute;
+	font-family: 'Comfortaa', cursive;
+	font-size: 24px;
+	text-align: right;
+	right: 60px;
+	bottom: 60px;
+	
+	color: #415d8a;
+}
+
 .blockTitle {
-	font-family: Verdana;
-	font-size: 54px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 60px;
 	text-align: center;
 	padding-top: 20px;
-	color: #0088C4;
+	color: #415d8a;
 	font-weight: 900;
-	text-shadow: 2px 2px #999;
+	text-shadow: 2px 2px #ccc;
 }
 
 .block:nth-child(even){
-	background-color: #EBE8DA;
+	background-color: #eee;
 }
 
+#block1 {
+	background-image: url("titlepage.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	}
 
 .navButton {
-	height: 50px;
-	min-width: 100px;
+	width: 100px;
 	position: absolute;
-	bottom: 20px;
+	bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 3px;
+	padding-right: 0px;
 	left: 0;
 	right: 0;
-	box-shadow: 1px 1px #999;
+	border: 0px;
+	border-radius: 4px;
+	color: white;
+	font-size: 30px;
 }
 
 .navButton:hover {
-	height: 50px;
-	min-width: 100px;
-	position: absolute;
-	bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	box-shadow: 4px 4px #999;
 }
