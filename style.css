@@ -16,6 +16,57 @@ body {
 	margin: 0px;
 	min-height: 600px;
 	position: relative;
+	box-shadow: 0px -10px 10px #eee;
+}
+
+.content {
+	width: 100%;
+	height: 75vh;
+	display: flex;
+}
+
+.text {
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+	margin: 20px;
+	padding: 20px;
+	padding-right: 80px;
+	padding-left: 30px;
+}
+
+
+.col2l {
+	flex: 30%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 20px;
+}
+
+.col2r {
+	flex: 70%;
+	margin: 20px;
+	background-color: #f8f8f8;
+	border-radius: 50px;
+	margin-right: 100px;
+	margin-bottom: 60px;
+	box-shadow: 5px 5px 5px #ccc;
+}
+
+
+.col3l {
+	flex: 70%;
+	margin: 20px;
+	background-color: #f8f8f8;
+	border-radius: 50px;
+	margin-left: 100px;
+	margin-bottom: 60px;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.col3r {
+	flex: 30%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 20px;
 }
 
 .landingTitle {
@@ -45,9 +96,10 @@ body {
 	font-size: 60px;
 	text-align: center;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	color: #415d8a;
 	font-weight: 900;
-	text-shadow: 2px 2px #ccc;
+	text-shadow: 3px 3px 3px #ccc;
 }
 
 #block1 {
